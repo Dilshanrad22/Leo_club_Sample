@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import CounterCard from '@/components/CounterCard';
 import {
@@ -217,7 +216,7 @@ export default function HomePage() {
                 <div className="space-y-5">
                   <h3 className="text-3xl font-black text-gray-900 font-display">Our Humble Beginnings</h3>
                   <p className="text-gray-600 leading-relaxed">The Leo Club of Sample City was founded in 2005 by a group of passionate youth who believed that young people could make a real difference in their communities. Starting with just 12 dedicated members, the club quickly grew into one of the most active Leo chapters in the district.</p>
-                  <p className="text-gray-600 leading-relaxed">Sponsored by the Lions Club of Sample City and affiliated with Leo District 306 D2, our club has maintained a steadfast commitment to the Leo motto: <em className="text-[#0033A0] font-semibold">"Leadership, Experience and Opportunity."</em></p>
+                  <p className="text-gray-600 leading-relaxed">Sponsored by the Lions Club of Sample City and affiliated with Leo District 306 D2, our club has maintained a steadfast commitment to the Leo motto: <em className="text-[#0033A0] font-semibold">&ldquo;Leadership, Experience and Opportunity.&rdquo;</em></p>
                   <Link href="/leoism" className="inline-flex items-center gap-2 text-[#0033A0] font-semibold hover:gap-4 transition-all duration-300 text-sm">
                     Learn About Leoism <ArrowRight className="w-4 h-4" />
                   </Link>
@@ -296,7 +295,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <span className="inline-block bg-blue-50 text-[#0033A0] text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-4">Our Impact Areas</span>
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 font-display">We Believe That We Can</h2>
-            <h2 className="text-4xl md:text-5xl font-black gold-text font-display" style={{ WebkitTextFillColor: undefined, background: 'linear-gradient(135deg,#0033A0,#0066FF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+            <h2 className="text-4xl md:text-5xl font-black font-display" style={{ background: 'linear-gradient(135deg,#0033A0,#0066FF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' }}>
               Save More Lives With You
             </h2>
           </div>
