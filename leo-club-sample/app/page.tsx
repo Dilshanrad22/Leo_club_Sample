@@ -146,6 +146,8 @@ export default function HomePage() {
                   <button
                     key={i}
                     onClick={() => setSlide(i)}
+                    title={`Go to slide ${i + 1}`}
+                    aria-label={`Go to slide ${i + 1}`}
                     className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${i === slide ? 'bg-[#FFD700] w-8' : 'bg-white/30 w-4'}`}
                   />
                 ))}
